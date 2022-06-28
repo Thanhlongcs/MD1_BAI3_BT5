@@ -1,0 +1,23 @@
+body{
+    background-color: orange;
+}
+
+table{
+    margin: 10px 0px 0px 10px;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 14px;
+}
+
+td{
+    padding:20px;
+    background-color: black;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even)
+{
+    background-color: white;
+}
